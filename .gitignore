@@ -1,0 +1,17 @@
+# Fichiers éditeur / OS
+.vscode/
+.idea/
+.DS_Store
+*:Zone.Identifier
+
+# Helm
+charts/*.tgz
+**/charts/*.tgz
+
+# Valeurs locales ou secrets
+values-local.yaml
+*.secret.yaml
+.env
+
+# Artefacts kubeconfig
+kubeconfig
